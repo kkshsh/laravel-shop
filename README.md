@@ -6,7 +6,7 @@
 ## 安装
 
 使用
-`composer require "liweijia/commodity:*"`
+`composer require simple-shop/laravel-shop`
 
 ## 配置
 
