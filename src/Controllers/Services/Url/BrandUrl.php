@@ -6,7 +6,7 @@
  * Time: 下午8:02
  */
 
-namespace  LWJ\Commodity\Controllers\Services\Url;
+namespace  Commodity\Controllers\Services\Url;
 
 
 class BrandUrl implements UrlInterface

@@ -6,12 +6,12 @@
  * Time: 下午3:00
  */
 
-namespace  LWJ\Commodity\Controllers;
+namespace  Commodity\Controllers;
 
 
 use Illuminate\Http\Request;
-use LWJ\Commodity\Brand;
-use LWJ\Commodity\Cate;
+use Commodity\Brand;
+use Commodity\Cate;
 
 class BrandController extends Controller
 {

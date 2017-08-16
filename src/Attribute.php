@@ -7,9 +7,9 @@
  *
  */
 
-namespace  LWJ\Commodity;
-use LWJ\Commodity\Attribute\Info;
-use LWJ\Commodity\Attribute\Value;
+namespace  Commodity;
+use Commodity\Attribute\Info;
+use Commodity\Attribute\Value;
 
 
 /**

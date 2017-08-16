@@ -7,11 +7,11 @@
  *
  */
 
-namespace LWJ\Commodity;
+namespace Commodity;
 
-use LWJ\Commodity\Goods\Info;
-use LWJ\Commodity\Goods\Sku;
-use LWJ\Commodity\Goods\GoodsSearch;
+use Commodity\Goods\Info;
+use Commodity\Goods\Sku;
+use Commodity\Goods\GoodsSearch;
 
 
 /**

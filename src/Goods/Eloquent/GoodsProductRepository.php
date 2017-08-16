@@ -6,17 +6,17 @@
  * Time: 18:55
  */
 
-namespace LWJ\Commodity\Goods\Eloquent;
+namespace Commodity\Goods\Eloquent;
 
-use LWJ\Commodity\Goods\Criteria\GoodslUp;
-use LWJ\Commodity\Repository\Repository;
-use LWJ\Commodity\Spec;
+use Commodity\Goods\Criteria\GoodslUp;
+use Commodity\Repository\Repository;
+use Commodity\Spec;
 
 
 class GoodsProductRepository extends Repository {
 
     public function model() {
-        return 'LWJ\Commodity\Models\ShopGoodsProductModel';
+        return 'Commodity\Models\ShopGoodsProductModel';
     }
 
     /**

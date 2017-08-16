@@ -7,17 +7,17 @@
  *
  */
 
-namespace LWJ\Commodity\Goods;
+namespace Commodity\Goods;
 
 use App\Exceptions\ServiceErrorException;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Collection;
-use LWJ\Commodity\Commodity;
-use LWJ\Commodity\Goods\Check\FilterData;
-use LWJ\Commodity\Goods\Eloquent\GoodsAttrRepository;
-use LWJ\Commodity\Goods\Eloquent\GoodsProductRepository;
-use LWJ\Commodity\Goods\Eloquent\GoodsRepository;
-use LWJ\Commodity\Goods\Eloquent\GoodsSpecRepository;
+use Commodity\Commodity;
+use Commodity\Goods\Check\FilterData;
+use Commodity\Goods\Eloquent\GoodsAttrRepository;
+use Commodity\Goods\Eloquent\GoodsProductRepository;
+use Commodity\Goods\Eloquent\GoodsRepository;
+use Commodity\Goods\Eloquent\GoodsSpecRepository;
 use Mockery\CountValidator\Exception;
 use DB;
 

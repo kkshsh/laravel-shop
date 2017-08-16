@@ -6,7 +6,7 @@
  * Time: 18:31
  */
 
-namespace LWJ\Commodity\Repository;
+namespace Commodity\Repository;
 
 
 trait AttributeCache

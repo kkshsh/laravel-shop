@@ -6,7 +6,7 @@
  * Time: 下午6:06
  */
 
-namespace  LWJ\Commodity\Controllers\Traits;
+namespace  Commodity\Controllers\Traits;
 
 use Validator;
 

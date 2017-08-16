@@ -7,8 +7,8 @@
  *
  */
 
-namespace  LWJ\Commodity\Brand;
-use LWJ\Commodity\Brand\Eloquent\BrandRepository;
+namespace  Commodity\Brand;
+use Commodity\Brand\Eloquent\BrandRepository;
 
 
 /**
@@ -21,7 +21,7 @@ class Info
     /**
      * The Commodity  (aka the issuer).
      *
-     * @var LWJ\Commodity;
+     * @var Commodity;
      */
     protected $brandRepository;
 

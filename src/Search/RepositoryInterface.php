@@ -6,7 +6,7 @@
  * Time: 上午11:12
  */
 
-namespace LWJ\Commodity\Search;
+namespace Commodity\Search;
 
 
 use Illuminate\Database\Eloquent\Collection;

@@ -6,15 +6,15 @@
  * Time: 18:55
  */
 
-namespace LWJ\Commodity\Spec\Eloquent;
+namespace Commodity\Spec\Eloquent;
 
-use LWJ\Commodity\Repository\Repository;
+use Commodity\Repository\Repository;
 
 
 class SpecValueRepository extends Repository {
 
     public function model() {
-        return 'LWJ\Commodity\Models\ShopSpecValueModel';
+        return 'Commodity\Models\ShopSpecValueModel';
     }
 
     /**

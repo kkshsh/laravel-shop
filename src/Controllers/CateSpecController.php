@@ -6,12 +6,12 @@
  * Time: 下午8:31
  */
 
-namespace  LWJ\Commodity\Controllers;
+namespace  Commodity\Controllers;
 
 
-use LWJ\Commodity\Controllers\Traits\ReturnFormat;
+use Commodity\Controllers\Traits\ReturnFormat;
 use Illuminate\Http\Request;
-use LWJ\Commodity\Spec;
+use Commodity\Spec;
 use DB;
 
 class CateSpecController extends Controller

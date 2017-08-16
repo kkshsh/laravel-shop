@@ -6,20 +6,20 @@
  * Time: 18:55
  */
 
-namespace LWJ\Commodity\Goods\Eloquent;
+namespace Commodity\Goods\Eloquent;
 
 use Illuminate\Database\Eloquent\Collection;
-use LWJ\Commodity\Exceptions\Exception;
-use LWJ\Commodity\Models\ShopAttributeModel;
-use LWJ\Commodity\Models\ShopAttributeValueModel;
-use LWJ\Commodity\Models\ShopGoodsAttributeModel;
-use LWJ\Commodity\Repository\Repository;
+use Commodity\Exceptions\Exception;
+use Commodity\Models\ShopAttributeModel;
+use Commodity\Models\ShopAttributeValueModel;
+use Commodity\Models\ShopGoodsAttributeModel;
+use Commodity\Repository\Repository;
 
 
 class GoodsAttrRepository extends Repository {
 
     public function model() {
-        return 'LWJ\Commodity\Models\ShopGoodsAttributeModel';
+        return 'Commodity\Models\ShopGoodsAttributeModel';
     }
 
     /**

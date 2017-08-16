@@ -6,10 +6,10 @@
  * Time: 上午11:50
  */
 
-namespace LWJ\Commodity;
+namespace Commodity;
 
 
-use LWJ\Commodity\Search\RepositoryInterface;
+use Commodity\Search\RepositoryInterface;
 
 class Search
 {

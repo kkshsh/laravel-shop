@@ -1,9 +1,9 @@
 <?php
-namespace  LWJ\Commodity\Controllers;
+namespace  Commodity\Controllers;
 
 use Illuminate\Http\Request;
-use LWJ\Commodity\Controllers\Traits\ReturnFormat;
-use LWJ\Commodity\Controllers\Traits\ValidateHandler;
+use Commodity\Controllers\Traits\ReturnFormat;
+use Commodity\Controllers\Traits\ValidateHandler;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;

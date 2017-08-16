@@ -6,7 +6,7 @@
  * Time: 21:27
  */
 
-namespace  LWJ\Commodity\Controllers\Services\Spec;
+namespace  Commodity\Controllers\Services\Spec;
 
 
 interface SpecToSkuInterface

@@ -6,11 +6,11 @@
  * Time: 下午5:22
  */
 
-namespace LWJ\Commodity\Goods\Criteria;
+namespace Commodity\Goods\Criteria;
 
 
-use LWJ\Commodity\Contracts\RepositoryInterface as Repository;
-use LWJ\Commodity\Criteria\Criteria;
+use Commodity\Contracts\RepositoryInterface as Repository;
+use Commodity\Criteria\Criteria;
 
 class OrderPrice extends Criteria
 {

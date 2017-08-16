@@ -6,15 +6,15 @@
  * Time: 上午11:34
  */
 
-namespace  LWJ\Commodity\Controllers;
+namespace  Commodity\Controllers;
 
 
-use LWJ\Commodity\Controllers\Requests\CateStoreRequest;
+use Commodity\Controllers\Requests\CateStoreRequest;
 use Illuminate\Http\Request;
 use Illuminate\Pagination\LengthAwarePaginator;
-use LWJ\Commodity\Cate;
-use LWJ\Commodity\Cate\Criteria\CatePid;
-use LWJ\Commodity\Commodity;
+use Commodity\Cate;
+use Commodity\Cate\Criteria\CatePid;
+use Commodity\Commodity;
 
 class CateController extends Controller
 {

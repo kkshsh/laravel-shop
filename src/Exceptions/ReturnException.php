@@ -6,7 +6,7 @@
  * Time: 上午11:16
  */
 
-namespace LWJ\Commodity\Exceptions;
+namespace Commodity\Exceptions;
 
 use RuntimeException;
 use Log;

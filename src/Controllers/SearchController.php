@@ -6,12 +6,12 @@
  * Time: 下午6:25
  */
 
-namespace  LWJ\Commodity\Controllers;
+namespace  Commodity\Controllers;
 
 
 use App\Exceptions\DatabaseErrorException;
 use App\Http\Requests\Admin\Commodity\SearchAddOrUpdateRequest;
-use LWJ\Commodity\Search as  CommoditySearch;
+use Commodity\Search as  CommoditySearch;
 
 class SearchController extends Controller
 {

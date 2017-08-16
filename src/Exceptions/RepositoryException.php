@@ -6,7 +6,7 @@
  * (c) 2016 overtrue <i@overtrue.me>
  */
 
-namespace LWJ\Commodity\Exceptions;
+namespace Commodity\Exceptions;
 
 use Exception as BaseException;
 

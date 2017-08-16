@@ -7,13 +7,13 @@
  *
  */
 
-namespace LWJ\Commodity\Cate;
+namespace Commodity\Cate;
 
-use LWJ\Commodity\Cate;
-use LWJ\Commodity\Cate\Eloquent\CateBrandRepository;
+use Commodity\Cate;
+use Commodity\Cate\Eloquent\CateBrandRepository;
 use DB;
-use LWJ\Commodity\Models\ShopBrandModel;
-use LWJ\Commodity\Models\ShopCategoryBrandModel;
+use Commodity\Models\ShopBrandModel;
+use Commodity\Models\ShopCategoryBrandModel;
 
 
 /**
@@ -26,7 +26,7 @@ class Brand
     /**
      * The Commodity  (aka the issuer).
      *
-     * @var LWJ\Commodity;
+     * @var Commodity;
      */
     protected $cateBrandRepository;
 

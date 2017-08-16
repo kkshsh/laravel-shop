@@ -1,5 +1,5 @@
 <?php
-namespace LWJ\Commodity\Models;
+namespace Commodity\Models;
 /**
  *  @description 商品规格值表
  *  @author  wangzhoudong  <admin@yijinba.com>;
@@ -37,7 +37,7 @@ class ShopSpecValueModel extends BaseModel
                            ];
 
     public function specInfo(){
-        return $this->hasOne('LWJ\Commodity\Models\ShopSpecModel', 'id', 'spec_id');
+        return $this->hasOne('Commodity\Models\ShopSpecModel', 'id', 'spec_id');
     }
 
                                 

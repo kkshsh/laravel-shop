@@ -1,8 +1,8 @@
 <?php
 
-namespace LWJ\Commodity\Contracts;
+namespace Commodity\Contracts;
 
-use LWJ\Commodity\Criteria\Criteria;
+use Commodity\Criteria\Criteria;
 
 /**
  * Interface CriteriaInterface

@@ -1,11 +1,11 @@
 <?php
-namespace LWJ\Commodity;
+namespace Commodity;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Container\Container as Application;
 use Illuminate\Foundation\Application as LaravelApplication;
-use LWJ\Commodity\Search\RepositoryInterface;
-use LWJ\Commodity\Search\SearchRepository;
+use Commodity\Search\RepositoryInterface;
+use Commodity\Search\SearchRepository;
 
 class CommodityServiceProvider extends ServiceProvider {
 

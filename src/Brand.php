@@ -7,10 +7,10 @@
  *
  */
 
-namespace  LWJ\Commodity;
-use LWJ\Commodity\Brand\Eloquent\BrandRepository;
-use LWJ\Commodity\Brand\Info;
-use LWJ\Commodity\Cate\Criteria\BrandCateId;
+namespace  Commodity;
+use Commodity\Brand\Eloquent\BrandRepository;
+use Commodity\Brand\Info;
+use Commodity\Cate\Criteria\BrandCateId;
 
 
 /**

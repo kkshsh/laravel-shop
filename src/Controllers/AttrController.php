@@ -6,10 +6,10 @@
  * Time: 上午10:13
  */
 
-namespace  LWJ\Commodity\Controllers;
+namespace  Commodity\Controllers;
 
 use Illuminate\Http\Request;
-use LWJ\Commodity\Attribute;
+use Commodity\Attribute;
 
 class AttrController extends Controller
 {

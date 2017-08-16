@@ -6,7 +6,7 @@
  * Time: 下午3:49
  */
 
-namespace  LWJ\Commodity\Controllers\Services\SpuListHandler;
+namespace  Commodity\Controllers\Services\SpuListHandler;
 
 
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;

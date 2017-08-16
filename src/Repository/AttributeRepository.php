@@ -6,13 +6,13 @@
  * Time: 18:55
  */
 
-namespace LWJ\Commodity\Repository;
+namespace Commodity\Repository;
 
 use Illuminate\Database\Eloquent\Model;
-use LWJ\Commodity\Exceptions\Exception;
-use LWJ\Commodity\Models\ShopAttributeModel;
-use LWJ\Commodity\Models\ShopAttributeValueModel;
-use LWJ\Commodity\Models\ShopGoodsAttributeModel;
+use Commodity\Exceptions\Exception;
+use Commodity\Models\ShopAttributeModel;
+use Commodity\Models\ShopAttributeValueModel;
+use Commodity\Models\ShopGoodsAttributeModel;
 
 class AttributeRepository
 {

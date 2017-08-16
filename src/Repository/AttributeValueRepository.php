@@ -6,12 +6,12 @@
  * Time: 18:55
  */
 
-namespace LWJ\Commodity\Repository;
+namespace Commodity\Repository;
 
-use LWJ\Commodity\Exceptions\Exception;
-use LWJ\Commodity\Models\ShopAttributeModel;
-use LWJ\Commodity\Models\ShopAttributeValueModel;
-use LWJ\Commodity\Models\ShopGoodsAttributeModel;
+use Commodity\Exceptions\Exception;
+use Commodity\Models\ShopAttributeModel;
+use Commodity\Models\ShopAttributeValueModel;
+use Commodity\Models\ShopGoodsAttributeModel;
 use Symfony\Component\HttpKernel\EventListener\ValidateRequestListener;
 
 class AttributeValueRepository

@@ -6,7 +6,7 @@
  * Time: 下午2:14
  */
 
-namespace  LWJ\Commodity\Controllers\Services\Recommend;
+namespace  Commodity\Controllers\Services\Recommend;
 
 
 class Factory

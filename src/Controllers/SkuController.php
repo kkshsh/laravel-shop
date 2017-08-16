@@ -6,14 +6,14 @@
  * Time: 下午5:03
  */
 
-namespace  LWJ\Commodity\Controllers;
+namespace  Commodity\Controllers;
 
 
 use Illuminate\Http\Request;
-use LWJ\Commodity\Cate;
-use LWJ\Commodity\Commodity;
-use LWJ\Commodity\Goods\Criteria\ProductGoods;
-use LWJ\Commodity\Goods\Criteria\ProductMultiWhere;
+use Commodity\Cate;
+use Commodity\Commodity;
+use Commodity\Goods\Criteria\ProductGoods;
+use Commodity\Goods\Criteria\ProductMultiWhere;
 
 class SkuController extends Controller
 {

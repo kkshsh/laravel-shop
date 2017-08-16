@@ -5,7 +5,7 @@
  * Date: 2017/1/3
  * Time: 19:04
  */
-namespace LWJ\Commodity\Contracts;
+namespace Commodity\Contracts;
 
 interface Commodity
 {

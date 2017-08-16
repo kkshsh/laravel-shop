@@ -6,16 +6,16 @@
  * Time: 18:55
  */
 
-namespace LWJ\Commodity\Cate\Eloquent;
+namespace Commodity\Cate\Eloquent;
 
 
-use LWJ\Commodity\Exceptions\Exception;
-use LWJ\Commodity\Repository\Repository;
+use Commodity\Exceptions\Exception;
+use Commodity\Repository\Repository;
 
 class CateBrandRepository extends Repository {
 
     public function model() {
-        return 'LWJ\Commodity\Models\ShopCategoryBrandModel';
+        return 'Commodity\Models\ShopCategoryBrandModel';
     }
 
 

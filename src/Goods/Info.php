@@ -7,17 +7,17 @@
  *
  */
 
-namespace LWJ\Commodity\Goods;
+namespace Commodity\Goods;
 
 use App\Exceptions\IsUsedException;
 use Illuminate\Support\Collection;
-use LWJ\Commodity\Cate;
-use LWJ\Commodity\Goods\Check\FilterData;
-use LWJ\Commodity\Goods\Eloquent\GoodsAttrRepository;
-use LWJ\Commodity\Goods\Eloquent\GoodsImagesRepository;
-use LWJ\Commodity\Goods\Eloquent\GoodsProductRepository;
-use LWJ\Commodity\Goods\Eloquent\GoodsRepository;
-use LWJ\Commodity\Goods\Eloquent\GoodsSpecRepository;
+use Commodity\Cate;
+use Commodity\Goods\Check\FilterData;
+use Commodity\Goods\Eloquent\GoodsAttrRepository;
+use Commodity\Goods\Eloquent\GoodsImagesRepository;
+use Commodity\Goods\Eloquent\GoodsProductRepository;
+use Commodity\Goods\Eloquent\GoodsRepository;
+use Commodity\Goods\Eloquent\GoodsSpecRepository;
 use Mockery\CountValidator\Exception;
 
 
@@ -144,7 +144,7 @@ class Info
      * @param $goodsId
      * @param $attr
      * @return bool
-     * @throws \LWJ\Commodity\Exceptions\Exception
+     * @throws \Commodity\Exceptions\Exception
      */
     public function updateAttr($goodsId, $attr)
     {
@@ -164,7 +164,7 @@ class Info
         $ok = $this->goodsAttrRepository->adds($goodsId, $attr);
         if (! $ok) {
             \DB::rollBack();
-            throw new \LWJ\Commodity\Exceptions\Exception('添加属性失败');
+            throw new \Commodity\Exceptions\Exception('添加属性失败');
         }
 
         \DB::commit();

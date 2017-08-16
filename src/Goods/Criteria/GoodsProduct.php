@@ -6,12 +6,12 @@
  * Time: 17:52
  */
 
-namespace LWJ\Commodity\Goods\Criteria;
-use LWJ\Commodity\Criteria\Criteria;
+namespace Commodity\Goods\Criteria;
+use Commodity\Criteria\Criteria;
 
-use LWJ\Commodity\Contracts\RepositoryInterface as Repository;
-use LWJ\Commodity\Models\ShopGoodsModel;
-use LWJ\Commodity\Models\ShopGoodsProductModel;
+use Commodity\Contracts\RepositoryInterface as Repository;
+use Commodity\Models\ShopGoodsModel;
+use Commodity\Models\ShopGoodsProductModel;
 
 
 class GoodsProduct extends Criteria {

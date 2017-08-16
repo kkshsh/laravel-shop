@@ -6,11 +6,11 @@
  * Time: 下午4:33
  */
 
-namespace  LWJ\Commodity\Controllers\Services\Recommend;
+namespace  Commodity\Controllers\Services\Recommend;
 
 
 use Illuminate\Support\Collection;
-use LWJ\Commodity\Commodity;
+use Commodity\Commodity;
 
 class RandomGoods implements GoodsRecommendInterface
 {

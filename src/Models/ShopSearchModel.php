@@ -6,7 +6,7 @@
  * Time: 上午11:02
  */
 
-namespace LWJ\Commodity\Models;
+namespace Commodity\Models;
 
 
 use Illuminate\Database\Eloquent\Builder;

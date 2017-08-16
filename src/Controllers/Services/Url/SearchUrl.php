@@ -6,7 +6,7 @@
  * Time: 下午8:06
  */
 
-namespace  LWJ\Commodity\Controllers\Services\Url;
+namespace  Commodity\Controllers\Services\Url;
 
 
 class SearchUrl implements UrlInterface

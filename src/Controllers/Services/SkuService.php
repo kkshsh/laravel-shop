@@ -6,20 +6,20 @@
  * Time: 上午11:03
  */
 
-namespace  LWJ\Commodity\Controllers\Services;
+namespace  Commodity\Controllers\Services;
 
 
 use App\Exceptions\ResourcesNotFoundException;
 use App\Services\User\Store;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
-use LWJ\Commodity\Commodity;
-use LWJ\Commodity\Goods\Criteria\GoodsLine;
-use LWJ\Commodity\Goods\Criteria\OrderPrice;
-use LWJ\Commodity\Goods\Criteria\ProductGetNatureAndManMade;
-use LWJ\Commodity\Goods\Criteria\ProductGoods;
-use LWJ\Commodity\Goods\Criteria\ProductListSearch;
-use LWJ\Commodity\Goods\Criteria\ProductWith;
-use LWJ\Commodity\Goods\Criteria\StoreId;
+use Commodity\Commodity;
+use Commodity\Goods\Criteria\GoodsLine;
+use Commodity\Goods\Criteria\OrderPrice;
+use Commodity\Goods\Criteria\ProductGetNatureAndManMade;
+use Commodity\Goods\Criteria\ProductGoods;
+use Commodity\Goods\Criteria\ProductListSearch;
+use Commodity\Goods\Criteria\ProductWith;
+use Commodity\Goods\Criteria\StoreId;
 use Cache;
 
 class SkuService extends AbstractCommodity

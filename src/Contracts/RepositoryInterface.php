@@ -1,5 +1,5 @@
 <?php
-namespace LWJ\Commodity\Contracts;
+namespace Commodity\Contracts;
 
 /**
  * Interface RepositoryInterface

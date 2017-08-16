@@ -6,20 +6,20 @@
  * Time: 18:55
  */
 
-namespace LWJ\Commodity\Cate\Eloquent;
+namespace Commodity\Cate\Eloquent;
 
 
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Collection;
-use LWJ\Commodity\Exceptions\Exception;
-use LWJ\Commodity\Models\ShopCategoryModel;
-use LWJ\Commodity\Repository\Repository;
+use Commodity\Exceptions\Exception;
+use Commodity\Models\ShopCategoryModel;
+use Commodity\Repository\Repository;
 use DB;
 
 class CateRepository extends Repository {
 
     public function model() {
-        return 'LWJ\Commodity\Models\ShopCategoryModel';
+        return 'Commodity\Models\ShopCategoryModel';
     }
 
     /**

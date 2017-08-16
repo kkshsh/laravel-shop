@@ -6,7 +6,7 @@
  * Time: 下午4:18
  */
 
-namespace  LWJ\Commodity\Controllers\Requests;
+namespace  Commodity\Controllers\Requests;
 
 
 use Illuminate\Validation\Rule;

@@ -6,11 +6,11 @@
  * Time: 下午5:10
  */
 
-namespace  LWJ\Commodity\Controllers\Services\Recommend;
+namespace  Commodity\Controllers\Services\Recommend;
 
 
 use Illuminate\Support\Collection;
-use LWJ\Commodity\Commodity;
+use Commodity\Commodity;
 
 class RelationGoods implements GoodsRecommendInterface
 {

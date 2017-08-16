@@ -6,9 +6,9 @@
  * Time: 21:29
  */
 
-namespace  LWJ\Commodity\Controllers\Services\Spec;
+namespace  Commodity\Controllers\Services\Spec;
 
-use LWJ\Commodity\Commodity;
+use Commodity\Commodity;
 
 class DescartesSpec implements SpecToSkuInterface
 {

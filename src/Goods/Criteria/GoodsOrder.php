@@ -6,11 +6,11 @@
  * Time: 上午10:03
  */
 
-namespace LWJ\Commodity\Goods\Criteria;
+namespace Commodity\Goods\Criteria;
 
 
-use LWJ\Commodity\Contracts\RepositoryInterface as Repository;
-use LWJ\Commodity\Criteria\Criteria;
+use Commodity\Contracts\RepositoryInterface as Repository;
+use Commodity\Criteria\Criteria;
 
 class GoodsOrder extends Criteria
 {

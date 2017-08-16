@@ -6,12 +6,12 @@
  * Time: 上午10:27
  */
 
-namespace LWJ\Commodity\Goods\Criteria;
+namespace Commodity\Goods\Criteria;
 
 
 use Illuminate\Database\Eloquent\Builder;
-use LWJ\Commodity\Contracts\RepositoryInterface as Repository;
-use LWJ\Commodity\Criteria\Criteria;
+use Commodity\Contracts\RepositoryInterface as Repository;
+use Commodity\Criteria\Criteria;
 
 class ProductWith extends Criteria
 {

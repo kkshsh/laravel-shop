@@ -6,10 +6,10 @@
  * Time: 下午4:37
  */
 
-namespace LWJ\Commodity\Cate\Criteria;
+namespace Commodity\Cate\Criteria;
 
-use LWJ\Commodity\Criteria\Criteria;
-use LWJ\Commodity\Contracts\RepositoryInterface as Repository;
+use Commodity\Criteria\Criteria;
+use Commodity\Contracts\RepositoryInterface as Repository;
 
 class CateRootId extends Criteria
 {

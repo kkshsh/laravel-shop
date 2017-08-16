@@ -6,11 +6,11 @@
  * Time: 下午6:53
  */
 
-namespace LWJ\Commodity\Facades;
+namespace Commodity\Facades;
 
 
 use Illuminate\Support\Facades\Facade;
-use LWJ\Commodity\Search;
+use Commodity\Search;
 
 class CommoditySearch extends Facade
 {

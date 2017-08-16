@@ -6,13 +6,13 @@
  * Time: 上午11:11
  */
 
-namespace LWJ\Commodity\Search;
+namespace Commodity\Search;
 
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
-use LWJ\Commodity\Exceptions\Exception;
-use LWJ\Commodity\Models\ShopSearchModel;
+use Commodity\Exceptions\Exception;
+use Commodity\Models\ShopSearchModel;
 use DB;
 
 class SearchRepository implements RepositoryInterface

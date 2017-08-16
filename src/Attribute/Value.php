@@ -5,9 +5,9 @@
  * Date: 2017/1/6
  * Time: 10:33
  */
-namespace  LWJ\Commodity\Attribute;
+namespace  Commodity\Attribute;
 
-use LWJ\Commodity\Repository\AttributeValueRepository;
+use Commodity\Repository\AttributeValueRepository;
 
 class Value  {
 

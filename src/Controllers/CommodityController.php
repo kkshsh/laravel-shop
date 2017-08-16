@@ -6,16 +6,16 @@
  * Time: 下午3:33
  */
 
-namespace  LWJ\Commodity\Controllers;
+namespace  Commodity\Controllers;
 
 
-use LWJ\Commodity\Controllers\Requests\StoreRequest;
-use LWJ\Commodity\Controllers\Services\GoodsService;
+use Commodity\Controllers\Requests\StoreRequest;
+use Commodity\Controllers\Services\GoodsService;
 use Illuminate\Http\Request;
-use LWJ\Commodity\Commodity;
-use LWJ\Commodity\Goods\Criteria\GoodsMultiWhere;
+use Commodity\Commodity;
+use Commodity\Goods\Criteria\GoodsMultiWhere;
 use DB;
-use LWJ\Commodity\Goods\Criteria\GoodsOrder;
+use Commodity\Goods\Criteria\GoodsOrder;
 
 class CommodityController extends Controller
 {

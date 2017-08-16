@@ -6,7 +6,7 @@
  * Time: 下午2:39
  */
 
-namespace LWJ\Commodity\Exceptions;
+namespace Commodity\Exceptions;
 
 
 class ResourcesNotFoundException extends ReturnException

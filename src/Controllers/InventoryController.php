@@ -6,13 +6,13 @@
  * Time: 下午4:29
  */
 
-namespace  LWJ\Commodity\Controllers;
+namespace  Commodity\Controllers;
 
 
 use Illuminate\Http\Request;
-use LWJ\Commodity\Commodity;
-use LWJ\Commodity\Goods\Criteria\ProductGoods;
-use LWJ\Commodity\Goods\Criteria\ProductMultiWhere;
+use Commodity\Commodity;
+use Commodity\Goods\Criteria\ProductGoods;
+use Commodity\Goods\Criteria\ProductMultiWhere;
 
 class InventoryController extends Controller
 {

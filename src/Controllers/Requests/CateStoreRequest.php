@@ -6,7 +6,7 @@
  * Time: 下午3:33
  */
 
-namespace  LWJ\Commodity\Controllers\Requests;
+namespace  Commodity\Controllers\Requests;
 
 
 use App\Http\Requests\Request;

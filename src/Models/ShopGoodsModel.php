@@ -1,6 +1,6 @@
 <?php
 
-namespace LWJ\Commodity\Models;
+namespace Commodity\Models;
 
 /**
  * @description 商品SPU表
@@ -59,12 +59,12 @@ class ShopGoodsModel extends BaseModel
      */
     public function skuInfo()
     {
-        return $this->hasMany('LWJ\Commodity\Models\ShopGoodsProductModel', 'goods_id', 'id');
+        return $this->hasMany('Commodity\Models\ShopGoodsProductModel', 'goods_id', 'id');
     }
 
     public function attrInfo()
     {
-        return $this->hasMany('LWJ\Commodity\Models\ShopGoodsAttributeModel', 'goods_id', 'id');
+        return $this->hasMany('Commodity\Models\ShopGoodsAttributeModel', 'goods_id', 'id');
     }
 
     /**

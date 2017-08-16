@@ -6,14 +6,14 @@
  * Time: 下午4:42
  */
 
-namespace LWJ\Commodity\Goods\Criteria;
+namespace Commodity\Goods\Criteria;
 
 
 use App\Exceptions\NotInstanceofException;
 use Illuminate\Support\Collection;
-use LWJ\Commodity\Cate;
-use LWJ\Commodity\Contracts\RepositoryInterface as Repository;
-use LWJ\Commodity\Criteria\Criteria;
+use Commodity\Cate;
+use Commodity\Contracts\RepositoryInterface as Repository;
+use Commodity\Criteria\Criteria;
 
 class ProductListSearch extends Criteria
 {

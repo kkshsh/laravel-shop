@@ -6,20 +6,20 @@
  * Time: 18:55
  */
 
-namespace LWJ\Commodity\Goods\Eloquent;
+namespace Commodity\Goods\Eloquent;
 
-use LWJ\Commodity\Exceptions\Exception;
-use LWJ\Commodity\Models\ShopGoodsSpecModel;
-use LWJ\Commodity\Models\ShopSpecModel;
-use LWJ\Commodity\Models\ShopSpecValueModel;
-use LWJ\Commodity\Repository\Repository;
-use LWJ\Commodity\Spec;
+use Commodity\Exceptions\Exception;
+use Commodity\Models\ShopGoodsSpecModel;
+use Commodity\Models\ShopSpecModel;
+use Commodity\Models\ShopSpecValueModel;
+use Commodity\Repository\Repository;
+use Commodity\Spec;
 
 
 class GoodsSpecRepository extends Repository {
 
     public function model() {
-        return 'LWJ\Commodity\Models\ShopGoodsSpecModel';
+        return 'Commodity\Models\ShopGoodsSpecModel';
     }
 
     /**

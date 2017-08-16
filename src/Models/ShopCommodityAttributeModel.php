@@ -10,7 +10,7 @@
  *
  */
 
-namespace LWJ\Commodity\Models;
+namespace Commodity\Models;
 
 class ShopCommodityAttributeModel extends BaseModel
 {

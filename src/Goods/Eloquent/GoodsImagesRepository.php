@@ -6,10 +6,10 @@
  * Time: 18:55
  */
 
-namespace LWJ\Commodity\Goods\Eloquent;
+namespace Commodity\Goods\Eloquent;
 
-use LWJ\Commodity\Exceptions\Exception;
-use LWJ\Commodity\Repository\Repository;
+use Commodity\Exceptions\Exception;
+use Commodity\Repository\Repository;
 
 
 class GoodsImagesRepository extends Repository
@@ -17,7 +17,7 @@ class GoodsImagesRepository extends Repository
 
     public function model()
     {
-        return 'LWJ\Commodity\Models\ShopGoodsImagesModel';
+        return 'Commodity\Models\ShopGoodsImagesModel';
     }
 
 

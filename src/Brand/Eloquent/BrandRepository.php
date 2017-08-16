@@ -6,22 +6,22 @@
  * Time: 18:55
  */
 
-namespace LWJ\Commodity\Brand\Eloquent;
+namespace Commodity\Brand\Eloquent;
 
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
-use LWJ\Commodity\Exceptions\Exception;
-use LWJ\Commodity\Models\ShopBrandModel;
-use LWJ\Commodity\Models\ShopCategoryBrandModel;
-use LWJ\Commodity\Repository\Repository;
+use Commodity\Exceptions\Exception;
+use Commodity\Models\ShopBrandModel;
+use Commodity\Models\ShopCategoryBrandModel;
+use Commodity\Repository\Repository;
 
 class BrandRepository extends Repository
 {
 
     public function model()
     {
-        return 'LWJ\Commodity\Models\ShopBrandModel';
+        return 'Commodity\Models\ShopBrandModel';
     }
 
 

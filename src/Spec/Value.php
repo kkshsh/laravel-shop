@@ -5,10 +5,10 @@
  * Date: 2017/1/6
  * Time: 10:33
  */
-namespace LWJ\Commodity\Spec;
+namespace Commodity\Spec;
 
 use Illuminate\Database\Eloquent\Model;
-use LWJ\Commodity\Repository\SpecValueRepository;
+use Commodity\Repository\SpecValueRepository;
 
 class Value
 {

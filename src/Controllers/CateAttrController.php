@@ -6,12 +6,12 @@
  * Time: 上午9:34
  */
 
-namespace  LWJ\Commodity\Controllers;
+namespace  Commodity\Controllers;
 
 
-use LWJ\Commodity\Controllers\Requests\AttrSelectRequest;
+use Commodity\Controllers\Requests\AttrSelectRequest;
 use Illuminate\Http\Request;
-use LWJ\Commodity\Attribute;
+use Commodity\Attribute;
 use DB;
 
 class CateAttrController extends Controller

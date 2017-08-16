@@ -1,14 +1,14 @@
 <?php
 
-namespace LWJ\Commodity\Repository;
+namespace Commodity\Repository;
 
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Container\Container as App;
-use LWJ\Commodity\Contracts\RepositoryInterface;
-use LWJ\Commodity\Exceptions\RepositoryException;
-use LWJ\Commodity\Contracts\CriteriaInterface;
-use LWJ\Commodity\Criteria\Criteria;
+use Commodity\Contracts\RepositoryInterface;
+use Commodity\Exceptions\RepositoryException;
+use Commodity\Contracts\CriteriaInterface;
+use Commodity\Criteria\Criteria;
 
 /**
  * Class Repository

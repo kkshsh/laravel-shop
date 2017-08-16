@@ -6,12 +6,12 @@
  * Time: 下午2:47
  */
 
-namespace LWJ\Commodity\Goods\Criteria;
+namespace Commodity\Goods\Criteria;
 
 
-use LWJ\Commodity\Cate;
-use LWJ\Commodity\Contracts\RepositoryInterface as Repository;
-use LWJ\Commodity\Criteria\Criteria;
+use Commodity\Cate;
+use Commodity\Contracts\RepositoryInterface as Repository;
+use Commodity\Criteria\Criteria;
 
 class GoodsListSearch extends Criteria
 {

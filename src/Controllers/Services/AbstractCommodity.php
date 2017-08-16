@@ -6,15 +6,15 @@
  * Time: 下午4:28
  */
 
-namespace  LWJ\Commodity\Controllers\Services;
+namespace  Commodity\Controllers\Services;
 
 use App;
 
-use LWJ\Commodity\Controllers\Services\Recommend\RelationGoods;
-use LWJ\Commodity\Controllers\Services\Spec\DescartesSpec;
-use LWJ\Commodity\Commodity;
-use LWJ\Commodity\Controllers\Services\Spec\MinimumPriceChoose;
-use LWJ\Commodity\Models\ShopGoodsProductModel;
+use Commodity\Controllers\Services\Recommend\RelationGoods;
+use Commodity\Controllers\Services\Spec\DescartesSpec;
+use Commodity\Commodity;
+use Commodity\Controllers\Services\Spec\MinimumPriceChoose;
+use Commodity\Models\ShopGoodsProductModel;
 
 abstract class AbstractCommodity
 {

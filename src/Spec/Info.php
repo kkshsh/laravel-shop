@@ -5,17 +5,17 @@
  * Date: 2017/1/6
  * Time: 10:33
  */
-namespace  LWJ\Commodity\Spec;
+namespace  Commodity\Spec;
 
 use Illuminate\Database\Eloquent\Model;
-use LWJ\Commodity\Repository\SpecRepository;
-use LWJ\Commodity\Spec\Eloquent\SpecValueRepository;
+use Commodity\Repository\SpecRepository;
+use Commodity\Spec\Eloquent\SpecValueRepository;
 
 class Info  {
     /**
      * The Commodity  (aka the issuer).
      *
-     * @var LWJ\Commodity;
+     * @var Commodity;
      */
     protected $specRepository;
     protected $specValueRepository;

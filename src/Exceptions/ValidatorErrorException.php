@@ -6,7 +6,7 @@
  * Time: 下午4:22
  */
 
-namespace LWJ\Commodity\Exceptions;
+namespace Commodity\Exceptions;
 
 
 class ValidatorErrorException extends ReturnException

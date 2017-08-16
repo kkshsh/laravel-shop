@@ -1,7 +1,7 @@
 <?php
-namespace LWJ\Commodity\Criteria;
+namespace Commodity\Criteria;
 
-use LWJ\Commodity\Contracts\RepositoryInterface as Repository;
+use Commodity\Contracts\RepositoryInterface as Repository;
 use Illuminate\Support\Collection;
 
 abstract class Criteria {

@@ -1,5 +1,5 @@
 <?php
-namespace LWJ\Commodity\Models;
+namespace Commodity\Models;
 /**
  *  @description 期货表
  *  @author  wangzhoudong  <admin@yijinba.com>;

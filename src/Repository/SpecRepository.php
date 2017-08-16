@@ -6,13 +6,13 @@
  * Time: 18:55
  */
 
-namespace LWJ\Commodity\Repository;
+namespace Commodity\Repository;
 
 use Illuminate\Database\Eloquent\Model;
-use LWJ\Commodity\Exceptions\Exception;
-use LWJ\Commodity\Models\ShopGoodsSpecModel;
-use LWJ\Commodity\Models\ShopSpecModel;
-use LWJ\Commodity\Models\ShopSpecValueModel;
+use Commodity\Exceptions\Exception;
+use Commodity\Models\ShopGoodsSpecModel;
+use Commodity\Models\ShopSpecModel;
+use Commodity\Models\ShopSpecValueModel;
 
 class SpecRepository
 {

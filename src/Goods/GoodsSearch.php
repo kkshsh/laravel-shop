@@ -7,13 +7,13 @@
  *
  */
 
-namespace LWJ\Commodity\Goods;
+namespace Commodity\Goods;
 
-use LWJ\Commodity\Goods\Criteria\LineGoods;
-use LWJ\Commodity\Goods\Eloquent\GoodsAttrRepository;
-use LWJ\Commodity\Goods\Eloquent\GoodsProductRepository;
-use LWJ\Commodity\Goods\Eloquent\GoodsRepository;
-use LWJ\Commodity\Goods\Eloquent\GoodsSpecRepository;
+use Commodity\Goods\Criteria\LineGoods;
+use Commodity\Goods\Eloquent\GoodsAttrRepository;
+use Commodity\Goods\Eloquent\GoodsProductRepository;
+use Commodity\Goods\Eloquent\GoodsRepository;
+use Commodity\Goods\Eloquent\GoodsSpecRepository;
 
 
 /**

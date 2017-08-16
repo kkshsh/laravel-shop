@@ -6,19 +6,19 @@
  * Time: 下午4:27
  */
 
-namespace  LWJ\Commodity\Controllers\Services;
+namespace  Commodity\Controllers\Services;
 
 
-use LWJ\Commodity\Exceptions\ResourcesNotFoundException;
-use LWJ\Commodity\Controllers\Services\SpuListHandler\SpuHandle;
+use Commodity\Exceptions\ResourcesNotFoundException;
+use Commodity\Controllers\Services\SpuListHandler\SpuHandle;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
-use LWJ\Commodity\Commodity;
-use LWJ\Commodity\Goods\Criteria\GoodsLine;
-use LWJ\Commodity\Goods\Criteria\GoodsListSearch;
-use LWJ\Commodity\Goods\Criteria\OrderPrice;
-use LWJ\Commodity\Goods\Criteria\StoreId;
+use Commodity\Commodity;
+use Commodity\Goods\Criteria\GoodsLine;
+use Commodity\Goods\Criteria\GoodsListSearch;
+use Commodity\Goods\Criteria\OrderPrice;
+use Commodity\Goods\Criteria\StoreId;
 use Cache;
 
 class GoodsService extends AbstractCommodity

@@ -7,10 +7,10 @@
  * Time: 17:52
  */
 
-namespace LWJ\Commodity\Cate\Criteria;
-use LWJ\Commodity\Criteria\Criteria;
+namespace Commodity\Cate\Criteria;
+use Commodity\Criteria\Criteria;
 
-use LWJ\Commodity\Contracts\RepositoryInterface as Repository;
+use Commodity\Contracts\RepositoryInterface as Repository;
 
 
 class BrandCateId extends Criteria {

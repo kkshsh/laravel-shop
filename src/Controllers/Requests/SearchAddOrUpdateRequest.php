@@ -1,6 +1,6 @@
 <?php
 
-namespace  LWJ\Commodity\Controllers\Requests;
+namespace  Commodity\Controllers\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

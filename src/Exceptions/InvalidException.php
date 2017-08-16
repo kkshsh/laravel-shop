@@ -8,7 +8,7 @@
  *
  *  */
 
-namespace LWJ\Commodity\Exceptions;
+namespace Commodity\Exceptions;
 
 use Exception;
 

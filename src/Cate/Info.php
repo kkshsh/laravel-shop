@@ -7,12 +7,12 @@
  *
  */
 
-namespace LWJ\Commodity\Cate;
+namespace Commodity\Cate;
 
 use App\Exceptions\IsUsedException;
 use Illuminate\Support\Collection;
-use LWJ\Commodity\Cate;
-use LWJ\Commodity\Cate\Eloquent\CateRepository;
+use Commodity\Cate;
+use Commodity\Cate\Eloquent\CateRepository;
 
 
 /**
@@ -25,7 +25,7 @@ class Info
     /**
      * The Commodity  (aka the issuer).
      *
-     * @var LWJ\Commodity;
+     * @var Commodity;
      */
     protected $cateRepository;
 

@@ -5,7 +5,7 @@
  * Date: 2017/1/10
  * Time: 16:58
  */
-namespace  LWJ\Commodity\Goods\Check;
+namespace  Commodity\Goods\Check;
 
 trait FilterData {
 

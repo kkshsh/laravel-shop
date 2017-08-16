@@ -7,7 +7,7 @@
  *
  */
 
-namespace LWJ\Commodity\Facades;
+namespace Commodity\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

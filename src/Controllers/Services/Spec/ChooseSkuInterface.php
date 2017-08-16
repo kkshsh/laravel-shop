@@ -5,7 +5,7 @@
  * Date: 2017/3/21
  * Time: 下午11:43
  */
-namespace  LWJ\Commodity\Controllers\Services\Spec;
+namespace  Commodity\Controllers\Services\Spec;
 
 
 

@@ -6,7 +6,7 @@
  * Time: 下午11:46
  */
 
-namespace  LWJ\Commodity\Controllers\Services\Spec;
+namespace  Commodity\Controllers\Services\Spec;
 
 
 use App\Exceptions\ServiceErrorException;

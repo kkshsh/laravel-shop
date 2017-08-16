@@ -1,6 +1,6 @@
 <?php
 
-namespace  LWJ\Commodity\Controllers\Requests;
+namespace  Commodity\Controllers\Requests;
 
 
 use App\Http\Requests\Request;
