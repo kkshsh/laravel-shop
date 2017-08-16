@@ -1,5 +1,5 @@
 {
-    "name": "wangzd/laravel-shop",
+    "name": "laravel-shop/base",
     "description": "laravel商品系统",
     "keywords": ["Commodity", "shop", "laravel"],
     "license": "MIT",
