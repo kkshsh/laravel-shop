@@ -1,5 +1,5 @@
 {
-    "name": "Commodity",
+    "name": "wangzd\laravel-shop",
     "description": "laravel商品系统",
     "keywords": ["Commodity", "shop", "laravel"],
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "Wangzd",
             "email": "wangzhoudong@foxmail.com"
+        },
+	{
+            "name": "JiangZhiHeng",
+            "email": "j5110021@gmail.com"
         }
     ],
     "require": {
