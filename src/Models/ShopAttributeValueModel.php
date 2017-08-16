@@ -1,5 +1,5 @@
 <?php
-namespace Commodity\Models;
+namespace SimpleShop\Commodity\Models;
 /**
  *  @description 商品属性表
  *  @author  wangzhoudong  <admin@yijinba.com>;
@@ -37,6 +37,6 @@ class ShopAttributeValueModel extends BaseModel
                            ];
 
     public function attrInfo(){
-        return $this->hasOne('Commodity\Models\ShopAttributeModel', 'id', 'attr_id');
+        return $this->hasOne('SimpleShop\Commodity\Models\ShopAttributeModel', 'id', 'attr_id');
     }
 }

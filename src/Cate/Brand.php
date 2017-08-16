@@ -7,13 +7,13 @@
  *
  */
 
-namespace Commodity\Cate;
+namespace SimpleShop\Commodity\Cate;
 
-use Commodity\Cate;
-use Commodity\Cate\Eloquent\CateBrandRepository;
+use SimpleShop\Commodity\Cate;
+use SimpleShop\Commodity\Cate\Eloquent\CateBrandRepository;
 use DB;
-use Commodity\Models\ShopBrandModel;
-use Commodity\Models\ShopCategoryBrandModel;
+use SimpleShop\Commodity\Models\ShopBrandModel;
+use SimpleShop\Commodity\Models\ShopCategoryBrandModel;
 
 
 /**
@@ -26,7 +26,7 @@ class Brand
     /**
      * The Commodity  (aka the issuer).
      *
-     * @var Commodity;
+     * @var SimpleShop\Commodity;
      */
     protected $cateBrandRepository;
 

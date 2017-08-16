@@ -1,11 +1,11 @@
 <?php
-namespace Commodity;
+namespace SimpleShop\Commodity;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Container\Container as Application;
 use Illuminate\Foundation\Application as LaravelApplication;
-use Commodity\Search\RepositoryInterface;
-use Commodity\Search\SearchRepository;
+use SimpleShop\Commodity\Search\RepositoryInterface;
+use SimpleShop\Commodity\Search\SearchRepository;
 
 class CommodityServiceProvider extends ServiceProvider {
 

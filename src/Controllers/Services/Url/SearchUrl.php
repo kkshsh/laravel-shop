@@ -6,7 +6,7 @@
  * Time: 下午8:06
  */
 
-namespace  Commodity\Controllers\Services\Url;
+namespace  SimpleShop\Commodity\Controllers\Services\Url;
 
 
 class SearchUrl implements UrlInterface

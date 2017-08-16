@@ -6,13 +6,13 @@
  * Time: 下午4:29
  */
 
-namespace  Commodity\Controllers;
+namespace  SimpleShop\Commodity\Controllers;
 
 
 use Illuminate\Http\Request;
-use Commodity\Commodity;
-use Commodity\Goods\Criteria\ProductGoods;
-use Commodity\Goods\Criteria\ProductMultiWhere;
+use SimpleShop\Commodity\Commodity;
+use SimpleShop\Commodity\Goods\Criteria\ProductGoods;
+use SimpleShop\Commodity\Goods\Criteria\ProductMultiWhere;
 
 class InventoryController extends Controller
 {

@@ -6,7 +6,7 @@
  * Time: 下午3:33
  */
 
-namespace  Commodity\Controllers\Requests;
+namespace  SimpleShop\Commodity\Controllers\Requests;
 
 
 use App\Http\Requests\Request;

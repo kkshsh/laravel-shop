@@ -6,11 +6,11 @@
  * Time: 下午4:33
  */
 
-namespace  Commodity\Controllers\Services\Recommend;
+namespace  SimpleShop\Commodity\Controllers\Services\Recommend;
 
 
 use Illuminate\Support\Collection;
-use Commodity\Commodity;
+use SimpleShop\Commodity\Commodity;
 
 class RandomGoods implements GoodsRecommendInterface
 {

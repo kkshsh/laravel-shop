@@ -6,19 +6,19 @@
  * Time: 下午4:27
  */
 
-namespace  Commodity\Controllers\Services;
+namespace  SimpleShop\Commodity\Controllers\Services;
 
 
-use Commodity\Exceptions\ResourcesNotFoundException;
-use Commodity\Controllers\Services\SpuListHandler\SpuHandle;
+use SimpleShop\Commodity\Exceptions\ResourcesNotFoundException;
+use SimpleShop\Commodity\Controllers\Services\SpuListHandler\SpuHandle;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
-use Commodity\Commodity;
-use Commodity\Goods\Criteria\GoodsLine;
-use Commodity\Goods\Criteria\GoodsListSearch;
-use Commodity\Goods\Criteria\OrderPrice;
-use Commodity\Goods\Criteria\StoreId;
+use SimpleShop\Commodity\Commodity;
+use SimpleShop\Commodity\Goods\Criteria\GoodsLine;
+use SimpleShop\Commodity\Goods\Criteria\GoodsListSearch;
+use SimpleShop\Commodity\Goods\Criteria\OrderPrice;
+use SimpleShop\Commodity\Goods\Criteria\StoreId;
 use Cache;
 
 class GoodsService extends AbstractCommodity

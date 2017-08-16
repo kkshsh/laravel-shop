@@ -6,14 +6,14 @@
  * Time: 下午4:42
  */
 
-namespace Commodity\Goods\Criteria;
+namespace SimpleShop\Commodity\Goods\Criteria;
 
 
 use App\Exceptions\NotInstanceofException;
 use Illuminate\Support\Collection;
-use Commodity\Cate;
-use Commodity\Contracts\RepositoryInterface as Repository;
-use Commodity\Criteria\Criteria;
+use SimpleShop\Commodity\Cate;
+use SimpleShop\Commodity\Contracts\RepositoryInterface as Repository;
+use SimpleShop\Commodity\Criteria\Criteria;
 
 class ProductListSearch extends Criteria
 {

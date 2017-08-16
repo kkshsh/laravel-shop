@@ -7,10 +7,10 @@
  *
  */
 
-namespace  Commodity;
-use Commodity\Cate\Brand;
-use Commodity\Cate\Info;
-use Commodity\Cate\Eloquent\CateRepository;
+namespace  SimpleShop\Commodity;
+use SimpleShop\Commodity\Cate\Brand;
+use SimpleShop\Commodity\Cate\Info;
+use SimpleShop\Commodity\Cate\Eloquent\CateRepository;
 
 
 /**

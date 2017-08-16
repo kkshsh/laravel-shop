@@ -6,13 +6,13 @@
  * Time: 上午11:11
  */
 
-namespace Commodity\Search;
+namespace SimpleShop\Commodity\Search;
 
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
-use Commodity\Exceptions\Exception;
-use Commodity\Models\ShopSearchModel;
+use SimpleShop\Commodity\Exceptions\Exception;
+use SimpleShop\Commodity\Models\ShopSearchModel;
 use DB;
 
 class SearchRepository implements RepositoryInterface

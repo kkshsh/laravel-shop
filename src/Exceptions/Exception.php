@@ -6,13 +6,11 @@
  * (c) 2016 overtrue <i@overtrue.me>
  */
 
-namespace Commodity\Exceptions;
+namespace SimpleShop\Commodity\Exceptions;
 
 use Exception as BaseException;
 
-/**
- * Exception of Overtrue\LaravelShoppingCart package.
- */
+
 class Exception extends BaseException
 {
 }

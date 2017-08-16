@@ -7,11 +7,11 @@
  *
  */
 
-namespace Commodity;
+namespace SimpleShop\Commodity;
 
-use Commodity\Goods\Info;
-use Commodity\Goods\Sku;
-use Commodity\Goods\GoodsSearch;
+use SimpleShop\Commodity\Goods\Info;
+use SimpleShop\Commodity\Goods\Sku;
+use SimpleShop\Commodity\Goods\GoodsSearch;
 
 
 /**

@@ -7,17 +7,17 @@
  *
  */
 
-namespace Commodity\Goods;
+namespace SimpleShop\Commodity\Goods;
 
 use App\Exceptions\ServiceErrorException;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Collection;
-use Commodity\Commodity;
-use Commodity\Goods\Check\FilterData;
-use Commodity\Goods\Eloquent\GoodsAttrRepository;
-use Commodity\Goods\Eloquent\GoodsProductRepository;
-use Commodity\Goods\Eloquent\GoodsRepository;
-use Commodity\Goods\Eloquent\GoodsSpecRepository;
+use SimpleShop\Commodity\Commodity;
+use SimpleShop\Commodity\Goods\Check\FilterData;
+use SimpleShop\Commodity\Goods\Eloquent\GoodsAttrRepository;
+use SimpleShop\Commodity\Goods\Eloquent\GoodsProductRepository;
+use SimpleShop\Commodity\Goods\Eloquent\GoodsRepository;
+use SimpleShop\Commodity\Goods\Eloquent\GoodsSpecRepository;
 use Mockery\CountValidator\Exception;
 use DB;
 

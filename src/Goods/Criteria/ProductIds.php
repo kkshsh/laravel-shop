@@ -6,10 +6,10 @@
  * Time: 17:52
  */
 
-namespace Commodity\Goods\Criteria;
-use Commodity\Criteria\Criteria;
+namespace SimpleShop\Commodity\Goods\Criteria;
+use SimpleShop\Commodity\Criteria\Criteria;
 
-use Commodity\Contracts\RepositoryInterface as Repository;
+use SimpleShop\Commodity\Contracts\RepositoryInterface as Repository;
 
 
 class ProductIds extends Criteria {

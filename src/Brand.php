@@ -7,10 +7,10 @@
  *
  */
 
-namespace  Commodity;
-use Commodity\Brand\Eloquent\BrandRepository;
-use Commodity\Brand\Info;
-use Commodity\Cate\Criteria\BrandCateId;
+namespace  SimpleShop\Commodity;
+use SimpleShop\Commodity\Brand\Eloquent\BrandRepository;
+use SimpleShop\Commodity\Brand\Info;
+use SimpleShop\Commodity\Cate\Criteria\BrandCateId;
 
 
 /**

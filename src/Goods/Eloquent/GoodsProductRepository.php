@@ -6,17 +6,17 @@
  * Time: 18:55
  */
 
-namespace Commodity\Goods\Eloquent;
+namespace SimpleShop\Commodity\Goods\Eloquent;
 
-use Commodity\Goods\Criteria\GoodslUp;
-use Commodity\Repository\Repository;
-use Commodity\Spec;
+use SimpleShop\Commodity\Goods\Criteria\GoodslUp;
+use SimpleShop\Commodity\Repository\Repository;
+use SimpleShop\Commodity\Spec;
 
 
 class GoodsProductRepository extends Repository {
 
     public function model() {
-        return 'Commodity\Models\ShopGoodsProductModel';
+        return 'SimpleShop\Commodity\Models\ShopGoodsProductModel';
     }
 
     /**

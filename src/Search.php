@@ -6,10 +6,10 @@
  * Time: 上午11:50
  */
 
-namespace Commodity;
+namespace SimpleShop\Commodity;
 
 
-use Commodity\Search\RepositoryInterface;
+use SimpleShop\Commodity\Search\RepositoryInterface;
 
 class Search
 {

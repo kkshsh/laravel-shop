@@ -6,7 +6,7 @@
  * Time: 下午2:14
  */
 
-namespace  Commodity\Controllers\Services\Recommend;
+namespace  SimpleShop\Commodity\Controllers\Services\Recommend;
 
 
 class Factory

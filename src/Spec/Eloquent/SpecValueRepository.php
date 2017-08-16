@@ -6,15 +6,15 @@
  * Time: 18:55
  */
 
-namespace Commodity\Spec\Eloquent;
+namespace SimpleShop\Commodity\Spec\Eloquent;
 
-use Commodity\Repository\Repository;
+use SimpleShop\Commodity\Repository\Repository;
 
 
 class SpecValueRepository extends Repository {
 
     public function model() {
-        return 'Commodity\Models\ShopSpecValueModel';
+        return 'SimpleShop\Commodity\Models\ShopSpecValueModel';
     }
 
     /**

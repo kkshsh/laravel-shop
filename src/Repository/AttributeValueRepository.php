@@ -6,12 +6,12 @@
  * Time: 18:55
  */
 
-namespace Commodity\Repository;
+namespace SimpleShop\Commodity\Repository;
 
-use Commodity\Exceptions\Exception;
-use Commodity\Models\ShopAttributeModel;
-use Commodity\Models\ShopAttributeValueModel;
-use Commodity\Models\ShopGoodsAttributeModel;
+use SimpleShop\Commodity\Exceptions\Exception;
+use SimpleShop\Commodity\Models\ShopAttributeModel;
+use SimpleShop\Commodity\Models\ShopAttributeValueModel;
+use SimpleShop\Commodity\Models\ShopGoodsAttributeModel;
 use Symfony\Component\HttpKernel\EventListener\ValidateRequestListener;
 
 class AttributeValueRepository

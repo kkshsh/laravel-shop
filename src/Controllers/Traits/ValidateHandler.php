@@ -6,7 +6,7 @@
  * Time: 下午6:06
  */
 
-namespace  Commodity\Controllers\Traits;
+namespace  SimpleShop\Commodity\Controllers\Traits;
 
 use Validator;
 

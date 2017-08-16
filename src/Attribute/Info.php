@@ -5,9 +5,9 @@
  * Date: 2017/1/6
  * Time: 10:33
  */
-namespace Commodity\Attribute;
+namespace SimpleShop\Commodity\Attribute;
 
-use Commodity\Repository\AttributeRepository;
+use SimpleShop\Commodity\Repository\AttributeRepository;
 
 class Info
 {

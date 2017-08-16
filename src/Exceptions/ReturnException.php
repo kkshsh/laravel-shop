@@ -6,7 +6,7 @@
  * Time: 上午11:16
  */
 
-namespace Commodity\Exceptions;
+namespace SimpleShop\Commodity\Exceptions;
 
 use RuntimeException;
 use Log;

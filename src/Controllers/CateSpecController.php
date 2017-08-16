@@ -6,12 +6,12 @@
  * Time: 下午8:31
  */
 
-namespace  Commodity\Controllers;
+namespace  SimpleShop\Commodity\Controllers;
 
 
-use Commodity\Controllers\Traits\ReturnFormat;
+use SimpleShop\Commodity\Controllers\Traits\ReturnFormat;
 use Illuminate\Http\Request;
-use Commodity\Spec;
+use SimpleShop\Commodity\Spec;
 use DB;
 
 class CateSpecController extends Controller

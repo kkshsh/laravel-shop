@@ -6,11 +6,11 @@
  * Time: 下午6:53
  */
 
-namespace Commodity\Facades;
+namespace SimpleShop\Commodity\Facades;
 
 
 use Illuminate\Support\Facades\Facade;
-use Commodity\Search;
+use SimpleShop\Commodity\Search;
 
 class CommoditySearch extends Facade
 {

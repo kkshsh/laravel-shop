@@ -7,7 +7,7 @@
  *
  */
 
-namespace Commodity\Facades;
+namespace SimpleShop\Commodity\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

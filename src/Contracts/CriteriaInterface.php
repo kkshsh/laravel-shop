@@ -1,8 +1,8 @@
 <?php
 
-namespace Commodity\Contracts;
+namespace SimpleShop\Commodity\Contracts;
 
-use Commodity\Criteria\Criteria;
+use SimpleShop\Commodity\Criteria\Criteria;
 
 /**
  * Interface CriteriaInterface

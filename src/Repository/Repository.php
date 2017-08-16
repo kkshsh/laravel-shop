@@ -1,14 +1,14 @@
 <?php
 
-namespace Commodity\Repository;
+namespace SimpleShop\Commodity\Repository;
 
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Container\Container as App;
-use Commodity\Contracts\RepositoryInterface;
-use Commodity\Exceptions\RepositoryException;
-use Commodity\Contracts\CriteriaInterface;
-use Commodity\Criteria\Criteria;
+use SimpleShop\Commodity\Contracts\RepositoryInterface;
+use SimpleShop\Commodity\Exceptions\RepositoryException;
+use SimpleShop\Commodity\Contracts\CriteriaInterface;
+use SimpleShop\Commodity\Criteria\Criteria;
 
 /**
  * Class Repository

@@ -6,12 +6,12 @@
  * Time: 上午9:34
  */
 
-namespace  Commodity\Controllers;
+namespace  SimpleShop\Commodity\Controllers;
 
 
-use Commodity\Controllers\Requests\AttrSelectRequest;
+use SimpleShop\Commodity\Controllers\Requests\AttrSelectRequest;
 use Illuminate\Http\Request;
-use Commodity\Attribute;
+use SimpleShop\Commodity\Attribute;
 use DB;
 
 class CateAttrController extends Controller

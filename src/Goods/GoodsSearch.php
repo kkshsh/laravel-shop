@@ -7,13 +7,13 @@
  *
  */
 
-namespace Commodity\Goods;
+namespace SimpleShop\Commodity\Goods;
 
-use Commodity\Goods\Criteria\LineGoods;
-use Commodity\Goods\Eloquent\GoodsAttrRepository;
-use Commodity\Goods\Eloquent\GoodsProductRepository;
-use Commodity\Goods\Eloquent\GoodsRepository;
-use Commodity\Goods\Eloquent\GoodsSpecRepository;
+use SimpleShop\Commodity\Goods\Criteria\LineGoods;
+use SimpleShop\Commodity\Goods\Eloquent\GoodsAttrRepository;
+use SimpleShop\Commodity\Goods\Eloquent\GoodsProductRepository;
+use SimpleShop\Commodity\Goods\Eloquent\GoodsRepository;
+use SimpleShop\Commodity\Goods\Eloquent\GoodsSpecRepository;
 
 
 /**

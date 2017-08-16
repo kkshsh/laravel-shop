@@ -6,14 +6,14 @@
  * Time: 18:55
  */
 
-namespace Commodity\Repository;
+namespace SimpleShop\Commodity\Repository;
 
 
 use Illuminate\Database\Eloquent\Model;
-use Commodity\Exceptions\Exception;
-use Commodity\Models\ShopGoodsSpecModel;
-use Commodity\Models\ShopSpecModel;
-use Commodity\Models\ShopSpecValueModel;
+use SimpleShop\Commodity\Exceptions\Exception;
+use SimpleShop\Commodity\Models\ShopGoodsSpecModel;
+use SimpleShop\Commodity\Models\ShopSpecModel;
+use SimpleShop\Commodity\Models\ShopSpecValueModel;
 
 class SpecValueRepository  {
 

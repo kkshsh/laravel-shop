@@ -6,7 +6,7 @@
  * Time: 下午3:54
  */
 
-namespace  Commodity\Controllers\Services\Recommend;
+namespace  SimpleShop\Commodity\Controllers\Services\Recommend;
 
 
 use Illuminate\Support\Collection;

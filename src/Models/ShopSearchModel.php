@@ -6,7 +6,7 @@
  * Time: 上午11:02
  */
 
-namespace Commodity\Models;
+namespace SimpleShop\Commodity\Models;
 
 
 use Illuminate\Database\Eloquent\Builder;

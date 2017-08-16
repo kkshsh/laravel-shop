@@ -6,7 +6,7 @@
  * Time: 下午6:02
  */
 
-namespace  Commodity\Controllers\Services\Url;
+namespace  SimpleShop\Commodity\Controllers\Services\Url;
 
 
 interface UrlInterface

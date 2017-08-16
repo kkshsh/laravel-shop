@@ -5,7 +5,7 @@
  * Date: 2017/1/10
  * Time: 16:58
  */
-namespace  Commodity\Goods\Check;
+namespace  SimpleShop\Commodity\Goods\Check;
 
 trait FilterData {
 

@@ -6,7 +6,7 @@
  * Time: 21:27
  */
 
-namespace  Commodity\Controllers\Services\Spec;
+namespace  SimpleShop\Commodity\Controllers\Services\Spec;
 
 
 interface SpecToSkuInterface

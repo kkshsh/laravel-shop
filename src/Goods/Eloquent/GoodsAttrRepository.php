@@ -6,20 +6,20 @@
  * Time: 18:55
  */
 
-namespace Commodity\Goods\Eloquent;
+namespace SimpleShop\Commodity\Goods\Eloquent;
 
 use Illuminate\Database\Eloquent\Collection;
-use Commodity\Exceptions\Exception;
-use Commodity\Models\ShopAttributeModel;
-use Commodity\Models\ShopAttributeValueModel;
-use Commodity\Models\ShopGoodsAttributeModel;
-use Commodity\Repository\Repository;
+use SimpleShop\Commodity\Exceptions\Exception;
+use SimpleShop\Commodity\Models\ShopAttributeModel;
+use SimpleShop\Commodity\Models\ShopAttributeValueModel;
+use SimpleShop\Commodity\Models\ShopGoodsAttributeModel;
+use SimpleShop\Commodity\Repository\Repository;
 
 
 class GoodsAttrRepository extends Repository {
 
     public function model() {
-        return 'Commodity\Models\ShopGoodsAttributeModel';
+        return 'SimpleShop\Commodity\Models\ShopGoodsAttributeModel';
     }
 
     /**

@@ -6,7 +6,7 @@
  * Time: 上午11:12
  */
 
-namespace Commodity\Search;
+namespace SimpleShop\Commodity\Search;
 
 
 use Illuminate\Database\Eloquent\Collection;

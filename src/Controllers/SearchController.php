@@ -6,12 +6,12 @@
  * Time: 下午6:25
  */
 
-namespace  Commodity\Controllers;
+namespace  SimpleShop\Commodity\Controllers;
 
 
 use App\Exceptions\DatabaseErrorException;
 use App\Http\Requests\Admin\Commodity\SearchAddOrUpdateRequest;
-use Commodity\Search as  CommoditySearch;
+use SimpleShop\Commodity\Search as  CommoditySearch;
 
 class SearchController extends Controller
 {

@@ -6,16 +6,16 @@
  * Time: 下午3:33
  */
 
-namespace  Commodity\Controllers;
+namespace  SimpleShop\Commodity\Controllers;
 
 
-use Commodity\Controllers\Requests\StoreRequest;
-use Commodity\Controllers\Services\GoodsService;
+use SimpleShop\Commodity\Controllers\Requests\StoreRequest;
+use SimpleShop\Commodity\Controllers\Services\GoodsService;
 use Illuminate\Http\Request;
-use Commodity\Commodity;
-use Commodity\Goods\Criteria\GoodsMultiWhere;
+use SimpleShop\Commodity\Commodity;
+use SimpleShop\Commodity\Goods\Criteria\GoodsMultiWhere;
 use DB;
-use Commodity\Goods\Criteria\GoodsOrder;
+use SimpleShop\Commodity\Goods\Criteria\GoodsOrder;
 
 class CommodityController extends Controller
 {

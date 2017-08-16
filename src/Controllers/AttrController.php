@@ -6,10 +6,10 @@
  * Time: 上午10:13
  */
 
-namespace  Commodity\Controllers;
+namespace  SimpleShop\Commodity\Controllers;
 
 use Illuminate\Http\Request;
-use Commodity\Attribute;
+use SimpleShop\Commodity\Attribute;
 
 class AttrController extends Controller
 {

@@ -5,7 +5,7 @@
  * Date: 2017/1/9
  * Time: 18:31
  */
-namespace  Commodity\Repository;
+namespace  SimpleShop\Commodity\Repository;
 
 
 trait SpecCache {

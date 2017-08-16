@@ -6,7 +6,7 @@
  * Time: 下午2:39
  */
 
-namespace Commodity\Exceptions;
+namespace SimpleShop\Commodity\Exceptions;
 
 
 class ResourcesNotFoundException extends ReturnException

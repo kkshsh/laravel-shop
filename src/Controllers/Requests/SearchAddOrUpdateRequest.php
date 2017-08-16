@@ -1,6 +1,6 @@
 <?php
 
-namespace  Commodity\Controllers\Requests;
+namespace  SimpleShop\Commodity\Controllers\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

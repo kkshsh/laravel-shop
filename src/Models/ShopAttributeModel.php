@@ -1,5 +1,5 @@
 <?php
-namespace Commodity\Models;
+namespace SimpleShop\Commodity\Models;
 /**
  *  @description 商品属性表
  *  @author  wangzhoudong  <admin@yijinba.com>;

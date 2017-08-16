@@ -6,15 +6,15 @@
  * Time: 下午4:28
  */
 
-namespace  Commodity\Controllers\Services;
+namespace  SimpleShop\Commodity\Controllers\Services;
 
 use App;
 
-use Commodity\Controllers\Services\Recommend\RelationGoods;
-use Commodity\Controllers\Services\Spec\DescartesSpec;
-use Commodity\Commodity;
-use Commodity\Controllers\Services\Spec\MinimumPriceChoose;
-use Commodity\Models\ShopGoodsProductModel;
+use SimpleShop\Commodity\Controllers\Services\Recommend\RelationGoods;
+use SimpleShop\Commodity\Controllers\Services\Spec\DescartesSpec;
+use SimpleShop\Commodity\Commodity;
+use SimpleShop\Commodity\Controllers\Services\Spec\MinimumPriceChoose;
+use SimpleShop\Commodity\Models\ShopGoodsProductModel;
 
 abstract class AbstractCommodity
 {

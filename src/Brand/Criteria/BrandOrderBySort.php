@@ -7,10 +7,10 @@
  * Time: 17:52
  */
 
-namespace Commodity\Cate\Criteria;
-use Commodity\Criteria\Criteria;
+namespace SimpleShop\Commodity\Cate\Criteria;
+use SimpleShop\Commodity\Criteria\Criteria;
 
-use Commodity\Contracts\RepositoryInterface as Repository;
+use SimpleShop\Commodity\Contracts\RepositoryInterface as Repository;
 
 
 class BrandOrderBySort extends Criteria {

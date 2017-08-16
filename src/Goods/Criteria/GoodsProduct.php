@@ -6,12 +6,12 @@
  * Time: 17:52
  */
 
-namespace Commodity\Goods\Criteria;
-use Commodity\Criteria\Criteria;
+namespace SimpleShop\Commodity\Goods\Criteria;
+use SimpleShop\Commodity\Criteria\Criteria;
 
-use Commodity\Contracts\RepositoryInterface as Repository;
-use Commodity\Models\ShopGoodsModel;
-use Commodity\Models\ShopGoodsProductModel;
+use SimpleShop\Commodity\Contracts\RepositoryInterface as Repository;
+use SimpleShop\Commodity\Models\ShopGoodsModel;
+use SimpleShop\Commodity\Models\ShopGoodsProductModel;
 
 
 class GoodsProduct extends Criteria {

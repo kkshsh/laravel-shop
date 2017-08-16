@@ -10,7 +10,7 @@
  *
  */
 
-namespace Commodity\Models;
+namespace SimpleShop\Commodity\Models;
 
 class ShopCategoryModel extends BaseModel
 {

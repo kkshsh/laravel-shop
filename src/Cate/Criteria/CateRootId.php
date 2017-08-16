@@ -6,10 +6,10 @@
  * Time: 下午4:37
  */
 
-namespace Commodity\Cate\Criteria;
+namespace SimpleShop\Commodity\Cate\Criteria;
 
-use Commodity\Criteria\Criteria;
-use Commodity\Contracts\RepositoryInterface as Repository;
+use SimpleShop\Commodity\Criteria\Criteria;
+use SimpleShop\Commodity\Contracts\RepositoryInterface as Repository;
 
 class CateRootId extends Criteria
 {

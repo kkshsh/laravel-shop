@@ -7,17 +7,17 @@
  *
  */
 
-namespace Commodity\Goods;
+namespace SimpleShop\Commodity\Goods;
 
 use App\Exceptions\IsUsedException;
 use Illuminate\Support\Collection;
-use Commodity\Cate;
-use Commodity\Goods\Check\FilterData;
-use Commodity\Goods\Eloquent\GoodsAttrRepository;
-use Commodity\Goods\Eloquent\GoodsImagesRepository;
-use Commodity\Goods\Eloquent\GoodsProductRepository;
-use Commodity\Goods\Eloquent\GoodsRepository;
-use Commodity\Goods\Eloquent\GoodsSpecRepository;
+use SimpleShop\Commodity\Cate;
+use SimpleShop\Commodity\Goods\Check\FilterData;
+use SimpleShop\Commodity\Goods\Eloquent\GoodsAttrRepository;
+use SimpleShop\Commodity\Goods\Eloquent\GoodsImagesRepository;
+use SimpleShop\Commodity\Goods\Eloquent\GoodsProductRepository;
+use SimpleShop\Commodity\Goods\Eloquent\GoodsRepository;
+use SimpleShop\Commodity\Goods\Eloquent\GoodsSpecRepository;
 use Mockery\CountValidator\Exception;
 
 
@@ -144,7 +144,7 @@ class Info
      * @param $goodsId
      * @param $attr
      * @return bool
-     * @throws \Commodity\Exceptions\Exception
+     * @throws \SimpleShop\Commodity\Exceptions\Exception
      */
     public function updateAttr($goodsId, $attr)
     {
@@ -164,7 +164,7 @@ class Info
         $ok = $this->goodsAttrRepository->adds($goodsId, $attr);
         if (! $ok) {
             \DB::rollBack();
-            throw new \Commodity\Exceptions\Exception('添加属性失败');
+            throw new \SimpleShop\Commodity\Exceptions\Exception('添加属性失败');
         }
 
         \DB::commit();

@@ -6,7 +6,7 @@
  * Time: 18:31
  */
 
-namespace Commodity\Repository;
+namespace SimpleShop\Commodity\Repository;
 
 
 trait AttributeCache

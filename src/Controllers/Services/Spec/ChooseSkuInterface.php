@@ -5,7 +5,7 @@
  * Date: 2017/3/21
  * Time: 下午11:43
  */
-namespace  Commodity\Controllers\Services\Spec;
+namespace  SimpleShop\Commodity\Controllers\Services\Spec;
 
 
 

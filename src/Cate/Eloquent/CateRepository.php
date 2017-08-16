@@ -6,20 +6,20 @@
  * Time: 18:55
  */
 
-namespace Commodity\Cate\Eloquent;
+namespace SimpleShop\Commodity\Cate\Eloquent;
 
 
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Collection;
-use Commodity\Exceptions\Exception;
-use Commodity\Models\ShopCategoryModel;
-use Commodity\Repository\Repository;
+use SimpleShop\Commodity\Exceptions\Exception;
+use SimpleShop\Commodity\Models\ShopCategoryModel;
+use SimpleShop\Commodity\Repository\Repository;
 use DB;
 
 class CateRepository extends Repository {
 
     public function model() {
-        return 'Commodity\Models\ShopCategoryModel';
+        return 'SimpleShop\Commodity\Models\ShopCategoryModel';
     }
 
     /**

@@ -1,5 +1,5 @@
 <?php
-namespace Commodity\Contracts;
+namespace SimpleShop\Commodity\Contracts;
 
 /**
  * Interface RepositoryInterface

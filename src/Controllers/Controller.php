@@ -1,9 +1,9 @@
 <?php
-namespace  Commodity\Controllers;
+namespace  SimpleShop\Commodity\Controllers;
 
 use Illuminate\Http\Request;
-use Commodity\Controllers\Traits\ReturnFormat;
-use Commodity\Controllers\Traits\ValidateHandler;
+use SimpleShop\Commodity\Controllers\Traits\ReturnFormat;
+use SimpleShop\Commodity\Controllers\Traits\ValidateHandler;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;

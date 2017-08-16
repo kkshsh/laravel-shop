@@ -1,6 +1,6 @@
 <?php
 
-namespace  Commodity\Controllers\Requests;
+namespace  SimpleShop\Commodity\Controllers\Requests;
 
 use App\Exceptions\ValidatorErrorException;
 use Illuminate\Contracts\Validation\Validator;

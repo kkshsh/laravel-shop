@@ -6,20 +6,20 @@
  * Time: 上午11:03
  */
 
-namespace  Commodity\Controllers\Services;
+namespace  SimpleShop\Commodity\Controllers\Services;
 
 
 use App\Exceptions\ResourcesNotFoundException;
 use App\Services\User\Store;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
-use Commodity\Commodity;
-use Commodity\Goods\Criteria\GoodsLine;
-use Commodity\Goods\Criteria\OrderPrice;
-use Commodity\Goods\Criteria\ProductGetNatureAndManMade;
-use Commodity\Goods\Criteria\ProductGoods;
-use Commodity\Goods\Criteria\ProductListSearch;
-use Commodity\Goods\Criteria\ProductWith;
-use Commodity\Goods\Criteria\StoreId;
+use SimpleShop\Commodity\Commodity;
+use SimpleShop\Commodity\Goods\Criteria\GoodsLine;
+use SimpleShop\Commodity\Goods\Criteria\OrderPrice;
+use SimpleShop\Commodity\Goods\Criteria\ProductGetNatureAndManMade;
+use SimpleShop\Commodity\Goods\Criteria\ProductGoods;
+use SimpleShop\Commodity\Goods\Criteria\ProductListSearch;
+use SimpleShop\Commodity\Goods\Criteria\ProductWith;
+use SimpleShop\Commodity\Goods\Criteria\StoreId;
 use Cache;
 
 class SkuService extends AbstractCommodity

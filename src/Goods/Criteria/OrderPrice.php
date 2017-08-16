@@ -6,11 +6,11 @@
  * Time: 下午5:22
  */
 
-namespace Commodity\Goods\Criteria;
+namespace SimpleShop\Commodity\Goods\Criteria;
 
 
-use Commodity\Contracts\RepositoryInterface as Repository;
-use Commodity\Criteria\Criteria;
+use SimpleShop\Commodity\Contracts\RepositoryInterface as Repository;
+use SimpleShop\Commodity\Criteria\Criteria;
 
 class OrderPrice extends Criteria
 {

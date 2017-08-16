@@ -6,14 +6,14 @@
  * Time: 下午5:03
  */
 
-namespace  Commodity\Controllers;
+namespace  SimpleShop\Commodity\Controllers;
 
 
 use Illuminate\Http\Request;
-use Commodity\Cate;
-use Commodity\Commodity;
-use Commodity\Goods\Criteria\ProductGoods;
-use Commodity\Goods\Criteria\ProductMultiWhere;
+use SimpleShop\Commodity\Cate;
+use SimpleShop\Commodity\Commodity;
+use SimpleShop\Commodity\Goods\Criteria\ProductGoods;
+use SimpleShop\Commodity\Goods\Criteria\ProductMultiWhere;
 
 class SkuController extends Controller
 {

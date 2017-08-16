@@ -8,7 +8,7 @@
  *
  *  */
 
-namespace Commodity\Exceptions;
+namespace SimpleShop\Commodity\Exceptions;
 
 use Exception;
 

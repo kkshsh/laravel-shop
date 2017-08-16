@@ -6,7 +6,7 @@
  * Time: 下午4:22
  */
 
-namespace Commodity\Exceptions;
+namespace SimpleShop\Commodity\Exceptions;
 
 
 class ValidatorErrorException extends ReturnException

@@ -6,9 +6,9 @@
  * Time: 21:29
  */
 
-namespace  Commodity\Controllers\Services\Spec;
+namespace  SimpleShop\Commodity\Controllers\Services\Spec;
 
-use Commodity\Commodity;
+use SimpleShop\Commodity\Commodity;
 
 class DescartesSpec implements SpecToSkuInterface
 {

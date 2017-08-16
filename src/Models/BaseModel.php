@@ -10,7 +10,7 @@
  *
  */
 
-namespace Commodity\Models;
+namespace SimpleShop\Commodity\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

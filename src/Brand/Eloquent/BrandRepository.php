@@ -6,22 +6,22 @@
  * Time: 18:55
  */
 
-namespace Commodity\Brand\Eloquent;
+namespace SimpleShop\Commodity\Brand\Eloquent;
 
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
-use Commodity\Exceptions\Exception;
-use Commodity\Models\ShopBrandModel;
-use Commodity\Models\ShopCategoryBrandModel;
-use Commodity\Repository\Repository;
+use SimpleShop\Commodity\Exceptions\Exception;
+use SimpleShop\Commodity\Models\ShopBrandModel;
+use SimpleShop\Commodity\Models\ShopCategoryBrandModel;
+use SimpleShop\Commodity\Repository\Repository;
 
 class BrandRepository extends Repository
 {
 
     public function model()
     {
-        return 'Commodity\Models\ShopBrandModel';
+        return 'SimpleShop\Commodity\Models\ShopBrandModel';
     }
 
 

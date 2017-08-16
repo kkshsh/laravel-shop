@@ -6,11 +6,11 @@
  * Time: 下午12:03
  */
 
-namespace Commodity\Goods\Criteria;
+namespace SimpleShop\Commodity\Goods\Criteria;
 
 
-use Commodity\Contracts\RepositoryInterface as Repository;
-use Commodity\Criteria\Criteria;
+use SimpleShop\Commodity\Contracts\RepositoryInterface as Repository;
+use SimpleShop\Commodity\Criteria\Criteria;
 use Illuminate\Database\Eloquent\Builder;
 
 class StoreId extends Criteria

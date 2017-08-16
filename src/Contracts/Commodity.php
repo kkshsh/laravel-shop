@@ -5,7 +5,7 @@
  * Date: 2017/1/3
  * Time: 19:04
  */
-namespace Commodity\Contracts;
+namespace SimpleShop\Commodity\Contracts;
 
 interface Commodity
 {

@@ -11,14 +11,14 @@
  */
 
 
-use Commodity\Attribute;
-use Commodity\Brand;
-use Commodity\Cate;
-use Commodity\Commodity;
-use Commodity\Goods\Criteria\MultiWhereGoods;
-use Commodity\Goods\Criteria\ProductGoods;
-use Commodity\Goods\Criteria\ProductIds;
-use Commodity\Spec;
+use SimpleShop\Commodity\Attribute;
+use SimpleShop\Commodity\Brand;
+use SimpleShop\Commodity\Cate;
+use SimpleShop\Commodity\Commodity;
+use SimpleShop\Commodity\Goods\Criteria\MultiWhereGoods;
+use SimpleShop\Commodity\Goods\Criteria\ProductGoods;
+use SimpleShop\Commodity\Goods\Criteria\ProductIds;
+use SimpleShop\Commodity\Spec;
 
 use Cart;
 use LWJ\Services\Pay\LwjPay;

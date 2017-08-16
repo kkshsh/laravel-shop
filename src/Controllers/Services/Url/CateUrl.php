@@ -6,7 +6,7 @@
  * Time: 下午6:08
  */
 
-namespace  Commodity\Controllers\Services\Url;
+namespace  SimpleShop\Commodity\Controllers\Services\Url;
 
 
 class CateUrl implements UrlInterface

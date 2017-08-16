@@ -7,8 +7,8 @@
  *
  */
 
-namespace  Commodity\Brand;
-use Commodity\Brand\Eloquent\BrandRepository;
+namespace  SimpleShop\Commodity\Brand;
+use SimpleShop\Commodity\Brand\Eloquent\BrandRepository;
 
 
 /**
@@ -21,7 +21,7 @@ class Info
     /**
      * The Commodity  (aka the issuer).
      *
-     * @var Commodity;
+     * @var SimpleShop\Commodity;
      */
     protected $brandRepository;
 

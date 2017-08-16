@@ -6,12 +6,12 @@
  * Time: 下午2:47
  */
 
-namespace Commodity\Goods\Criteria;
+namespace SimpleShop\Commodity\Goods\Criteria;
 
 
-use Commodity\Cate;
-use Commodity\Contracts\RepositoryInterface as Repository;
-use Commodity\Criteria\Criteria;
+use SimpleShop\Commodity\Cate;
+use SimpleShop\Commodity\Contracts\RepositoryInterface as Repository;
+use SimpleShop\Commodity\Criteria\Criteria;
 
 class GoodsListSearch extends Criteria
 {

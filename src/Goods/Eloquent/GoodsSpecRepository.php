@@ -6,20 +6,20 @@
  * Time: 18:55
  */
 
-namespace Commodity\Goods\Eloquent;
+namespace SimpleShop\Commodity\Goods\Eloquent;
 
-use Commodity\Exceptions\Exception;
-use Commodity\Models\ShopGoodsSpecModel;
-use Commodity\Models\ShopSpecModel;
-use Commodity\Models\ShopSpecValueModel;
-use Commodity\Repository\Repository;
-use Commodity\Spec;
+use SimpleShop\Commodity\Exceptions\Exception;
+use SimpleShop\Commodity\Models\ShopGoodsSpecModel;
+use SimpleShop\Commodity\Models\ShopSpecModel;
+use SimpleShop\Commodity\Models\ShopSpecValueModel;
+use SimpleShop\Commodity\Repository\Repository;
+use SimpleShop\Commodity\Spec;
 
 
 class GoodsSpecRepository extends Repository {
 
     public function model() {
-        return 'Commodity\Models\ShopGoodsSpecModel';
+        return 'SimpleShop\Commodity\Models\ShopGoodsSpecModel';
     }
 
     /**

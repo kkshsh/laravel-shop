@@ -7,9 +7,9 @@
  *
  */
 
-namespace  Commodity;
-use Commodity\Spec\Info;
-use Commodity\Spec\Value;
+namespace  SimpleShop\Commodity;
+use SimpleShop\Commodity\Spec\Info;
+use SimpleShop\Commodity\Spec\Value;
 
 
 /**

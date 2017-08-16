@@ -6,7 +6,7 @@
  * Time: 下午4:18
  */
 
-namespace  Commodity\Controllers\Requests;
+namespace  SimpleShop\Commodity\Controllers\Requests;
 
 
 use Illuminate\Validation\Rule;

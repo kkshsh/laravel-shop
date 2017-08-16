@@ -6,16 +6,16 @@
  * Time: 18:55
  */
 
-namespace Commodity\Cate\Eloquent;
+namespace SimpleShop\Commodity\Cate\Eloquent;
 
 
-use Commodity\Exceptions\Exception;
-use Commodity\Repository\Repository;
+use SimpleShop\Commodity\Exceptions\Exception;
+use SimpleShop\Commodity\Repository\Repository;
 
 class CateBrandRepository extends Repository {
 
     public function model() {
-        return 'Commodity\Models\ShopCategoryBrandModel';
+        return 'SimpleShop\Commodity\Models\ShopCategoryBrandModel';
     }
 
 

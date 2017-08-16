@@ -6,10 +6,10 @@
  * Time: 18:55
  */
 
-namespace Commodity\Goods\Eloquent;
+namespace SimpleShop\Commodity\Goods\Eloquent;
 
-use Commodity\Exceptions\Exception;
-use Commodity\Repository\Repository;
+use SimpleShop\Commodity\Exceptions\Exception;
+use SimpleShop\Commodity\Repository\Repository;
 
 
 class GoodsImagesRepository extends Repository
@@ -17,7 +17,7 @@ class GoodsImagesRepository extends Repository
 
     public function model()
     {
-        return 'Commodity\Models\ShopGoodsImagesModel';
+        return 'SimpleShop\Commodity\Models\ShopGoodsImagesModel';
     }
 
 

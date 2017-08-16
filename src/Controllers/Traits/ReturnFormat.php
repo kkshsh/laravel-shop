@@ -6,7 +6,7 @@
  * Time: 下午5:53
  */
 
-namespace  Commodity\Controllers\Traits;
+namespace  SimpleShop\Commodity\Controllers\Traits;
 
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Collection;

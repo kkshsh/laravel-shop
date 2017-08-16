@@ -6,7 +6,7 @@
  * Time: 下午3:22
  */
 
-namespace  Commodity\Controllers\Services\SpuListHandler;
+namespace  SimpleShop\Commodity\Controllers\Services\SpuListHandler;
 
 
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;

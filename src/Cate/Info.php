@@ -7,12 +7,12 @@
  *
  */
 
-namespace Commodity\Cate;
+namespace SimpleShop\Commodity\Cate;
 
 use App\Exceptions\IsUsedException;
 use Illuminate\Support\Collection;
-use Commodity\Cate;
-use Commodity\Cate\Eloquent\CateRepository;
+use SimpleShop\Commodity\Cate;
+use SimpleShop\Commodity\Cate\Eloquent\CateRepository;
 
 
 /**
@@ -25,7 +25,7 @@ class Info
     /**
      * The Commodity  (aka the issuer).
      *
-     * @var Commodity;
+     * @var SimpleShop\Commodity;
      */
     protected $cateRepository;
 

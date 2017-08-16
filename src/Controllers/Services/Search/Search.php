@@ -5,7 +5,7 @@
  * Date: 2017/5/2
  * Time: 下午3:57
  */
-namespace  Commodity\Controllers\Services\Search;
+namespace  SimpleShop\Commodity\Controllers\Services\Search;
 
 use Cache;
 use CommoditySearch;

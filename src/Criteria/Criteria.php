@@ -1,7 +1,7 @@
 <?php
-namespace Commodity\Criteria;
+namespace SimpleShop\Commodity\Criteria;
 
-use Commodity\Contracts\RepositoryInterface as Repository;
+use SimpleShop\Commodity\Contracts\RepositoryInterface as Repository;
 use Illuminate\Support\Collection;
 
 abstract class Criteria {

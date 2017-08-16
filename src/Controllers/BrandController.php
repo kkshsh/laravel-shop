@@ -6,12 +6,12 @@
  * Time: 下午3:00
  */
 
-namespace  Commodity\Controllers;
+namespace  SimpleShop\Commodity\Controllers;
 
 
 use Illuminate\Http\Request;
-use Commodity\Brand;
-use Commodity\Cate;
+use SimpleShop\Commodity\Brand;
+use SimpleShop\Commodity\Cate;
 
 class BrandController extends Controller
 {

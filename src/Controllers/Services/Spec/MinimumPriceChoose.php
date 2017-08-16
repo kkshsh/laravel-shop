@@ -6,7 +6,7 @@
  * Time: 下午11:46
  */
 
-namespace  Commodity\Controllers\Services\Spec;
+namespace  SimpleShop\Commodity\Controllers\Services\Spec;
 
 
 use App\Exceptions\ServiceErrorException;

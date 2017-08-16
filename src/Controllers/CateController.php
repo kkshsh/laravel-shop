@@ -6,15 +6,15 @@
  * Time: 上午11:34
  */
 
-namespace  Commodity\Controllers;
+namespace  SimpleShop\Commodity\Controllers;
 
 
-use Commodity\Controllers\Requests\CateStoreRequest;
+use SimpleShop\Commodity\Controllers\Requests\CateStoreRequest;
 use Illuminate\Http\Request;
 use Illuminate\Pagination\LengthAwarePaginator;
-use Commodity\Cate;
-use Commodity\Cate\Criteria\CatePid;
-use Commodity\Commodity;
+use SimpleShop\Commodity\Cate;
+use SimpleShop\Commodity\Cate\Criteria\CatePid;
+use SimpleShop\Commodity\Commodity;
 
 class CateController extends Controller
 {

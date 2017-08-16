@@ -5,17 +5,17 @@
  * Date: 2017/1/6
  * Time: 10:33
  */
-namespace  Commodity\Spec;
+namespace  SimpleShop\Commodity\Spec;
 
 use Illuminate\Database\Eloquent\Model;
-use Commodity\Repository\SpecRepository;
-use Commodity\Spec\Eloquent\SpecValueRepository;
+use SimpleShop\Commodity\Repository\SpecRepository;
+use SimpleShop\Commodity\Spec\Eloquent\SpecValueRepository;
 
 class Info  {
     /**
      * The Commodity  (aka the issuer).
      *
-     * @var Commodity;
+     * @var SimpleShop\Commodity;
      */
     protected $specRepository;
     protected $specValueRepository;
