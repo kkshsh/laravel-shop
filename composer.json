@@ -19,7 +19,7 @@
 	"simple-shop/laravel-shop-cate": "*",
 	"simple-shop/laravel-shop-brand": "*",
 	"simple-shop/laravel-shop-store": "*",
-	"simple-shop/laravel-shop-attribute": "*",
+	"simple-shop/laravel-shop-attribute": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8 || ^5.0",
