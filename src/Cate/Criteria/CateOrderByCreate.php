@@ -13,7 +13,7 @@ use SimpleShop\Commodity\Criteria\Criteria;
 use SimpleShop\Commodity\Contracts\RepositoryInterface as Repository;
 
 
-class CateOrderBySort extends Criteria {
+class CateOrderByCreate extends Criteria {
 
     /**
      * @param $model
