@@ -15,11 +15,11 @@
     ],
     "require": {
         "php": ">=7.0.0",
-	"simple-shop/repositories": "*",
-	"simple-shop/laravel-shop-cate": "*",
-	"simple-shop/laravel-shop-brand": "*",
-	"simple-shop/laravel-shop-store": "*",
-	"simple-shop/laravel-shop-attribute": "*"
+	"simple-shop/repositories": ">=0.14",
+	"simple-shop/laravel-shop-cate": ">=0.1",
+	"simple-shop/laravel-shop-brand": ">=0.1",
+	"simple-shop/laravel-shop-store": ">=0.1",
+	"simple-shop/laravel-shop-attribute": ">=0.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8 || ^5.0",
