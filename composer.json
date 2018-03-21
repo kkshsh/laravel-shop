@@ -1,0 +1,39 @@
+{
+    "name": "simple-shop/laravel-shop",
+    "description": "laravel商品系统",
+    "keywords": ["Commodity", "shop", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wangzd",
+            "email": "wangzhoudong@foxmail.com"
+        },
+	{
+            "name": "JiangZhiHeng",
+            "email": "j5110021@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+	"simple-shop/repositories": ">=0.14",
+	"simple-shop/laravel-shop-cate": ">=0.1",
+	"simple-shop/laravel-shop-brand": ">=0.1",
+	"simple-shop/laravel-shop-store": ">=0.1",
+	"simple-shop/laravel-shop-attribute": ">=0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8 || ^5.0",
+        "phpspec/phpspec": "^2.2"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "SimpleShop\\Commodity\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
