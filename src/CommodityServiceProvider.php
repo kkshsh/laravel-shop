@@ -52,7 +52,7 @@ class CommodityServiceProvider extends ServiceProvider {
         $this->bootSearchTotal();
         $this->bootRecommend();
         $this->bladeTplConfig();
-
+        $this->bootFaq();
 	}
 
 	public function bladeTplConfig() {
@@ -177,6 +177,13 @@ class CommodityServiceProvider extends ServiceProvider {
     {
         Blade::directive('search_total', function () {
             return Total::html();
+        });
+    }
+
+    public function bootFaq()
+    {
+        Blade::directive('detail_faq', function ($expression) {
+            return \SimpleShop\Commodity\Blade\Detail\Faq::html($expression);
         });
     }
 

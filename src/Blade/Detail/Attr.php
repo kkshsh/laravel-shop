@@ -14,9 +14,7 @@ class Attr
     public static function html($id)
     {
         $html = <<< 'EOT'
-          <div class="stock_bt">
-    <a href="" class="active">商品参数</a>
-</div>
+
 <dl class="dllit">
     <dt>产品参数：</dt>
     <?php $valueName = '';?>
